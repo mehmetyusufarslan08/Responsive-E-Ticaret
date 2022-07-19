@@ -1,0 +1,337 @@
+.container.main-content {
+    padding: 20px 0;
+}
+
+.left-content {
+    padding: 10px !important;
+}
+
+.left-content div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.left-content img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    border: 1px solid transparent;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.left-content img:hover {
+    border-color: #000;
+}
+
+.center-content span {
+    background-color: #c0392b;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    padding: 10px !important;
+}
+
+.right-content {
+    padding: 20px 10px !important;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.right-content>div:nth-of-type(1) a {
+    font-size: 12px;
+    font-weight: 800;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.right-content>span {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+
+.right-content>div:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.right-content>div:nth-of-type(1) span {
+    font-size: clamp(20px, 1.5vw, 24px);
+    text-align: center;
+}
+
+.right-content>div:nth-of-type(1) div {
+    font-size: 12px;
+    text-align: center;
+}
+
+.right-content>div:nth-of-type(1) div span {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.right-content>div:nth-of-type(1)>span:nth-of-type(2) {
+    font-size: 15px;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+    color: #8d8d8e;
+}
+
+.right-content>div:nth-of-type(2) {
+    text-align: center;
+}
+
+.right-content>div:nth-of-type(2) .colors>span {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+.right-content>div:nth-of-type(2) .colors div {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    padding: 10px 0px;
+}
+
+.right-content>div:nth-of-type(2) .colors div a {
+    font-size: 15px;
+    border: 1px solid #e5e5e5;
+    background-color: #f8f8f8;
+    color: #000;
+    min-width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.right-content>div:nth-of-type(2)>span:nth-of-type(1) {
+    font-size: 13px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.right-content>div:nth-of-type(2)>div:nth-of-type(2) span {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+
+.right-content>div:nth-of-type(2)>div:nth-of-type(2) a {
+    font-size: 12px;
+    color: #000;
+    border: 1px solid #8d8d8e;
+    border-radius: 4px;
+    line-height: 30px;
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.right-content>div:nth-of-type(2)>div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 30px 0;
+}
+
+.right-content>div:nth-of-type(3) {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.right-content>div:nth-of-type(3) span {
+    color: #c0392b;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.right-content>div:nth-of-type(4)>span {
+    font-size: 12px;
+    color: red;
+}
+
+.right-content>div:nth-of-type(4) div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0392b;
+    color: #fff;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 0;
+    margin: 5px 0;
+    line-height: 18px;
+}
+
+.right-content>div:nth-of-type(5) {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.right-content>div:nth-of-type(5) span {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.right-content>div:nth-of-type(6) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.right-content>div:nth-of-type(6) a:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #c0392b;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.right-content>div:nth-of-type(6) a:nth-of-type(2) {
+    display: none;
+}
+
+.right-content>div:nth-of-type(7) {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-content>div:nth-of-type(7) div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+    text-align: center;
+    background-color: #F8F8F8;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.right-content>div:nth-of-type(7) div img {
+    width: 35px;
+}
+
+.right-content>div:nth-of-type(7) div span:nth-of-type(1) {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+}
+
+.right-content>div:nth-of-type(7) div span:nth-of-type(2) {
+    font-size: 10px;
+    color: #8d8d8e;
+}
+
+.right-content>div:nth-of-type(8) span {
+    font-size: 12px;
+    color: #000;
+}
+
+.pagination-content {
+    position: relative;
+    margin-top: 50px;
+}
+
+
+/* Product Features */
+
+.product {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.product-features ul {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.product-features ul li {
+    height: 35px;
+}
+
+.product-features ul li a {
+    color: #000;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.product-features ul li a.active {
+    border-bottom: 3px solid #c0392b;
+}
+
+.product div:nth-of-type(2) {
+    background-color: #F8F8F8;
+}
+
+.product-content {
+    padding: 20px 0;
+}
+
+.product-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.product-content li {
+    font-size: 16px;
+}

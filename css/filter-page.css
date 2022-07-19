@@ -1,0 +1,380 @@
+.main-content {
+    padding: 30px 0;
+}
+
+
+/* Right Content*/
+
+.main-content .col-9 {
+    padding: 0 10px;
+}
+
+.banner-top {
+    padding: 0 10px;
+}
+
+.list-content {
+    padding: 20px 5px 20px 20px;
+}
+
+img.banner {
+    width: 100%;
+}
+
+.left-content {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.left-content label {
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.left-content label input {
+    width: 15px;
+    height: 15px;
+}
+
+.left-content ul {
+    display: flex;
+}
+
+.left-content ul a {
+    color: #000;
+    font-size: 12px;
+    text-transform: capitalize;
+    padding: 0 5px;
+}
+
+.right-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-content a {
+    font-size: 13px;
+    color: #000;
+}
+
+.iconss {
+    display: flex;
+    column-gap: 15px;
+}
+
+.iconss div:first-child {
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 4px;
+    column-gap: 4px;
+}
+
+.iconss div:last-child {
+    width: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 4px;
+    column-gap: 4px;
+    color: #C3C6C9;
+}
+
+.iconss i {
+    font-size: 6px;
+}
+
+.filter-buttons>.buttonss {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.filter-buttons>.buttonss a {
+    background-color: #c0392b;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 45px;
+    margin: 20px 0;
+}
+
+.filter-buttons>.buttonss a label {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.main-content input#close {
+    display: none;
+}
+
+.filt-close label {
+    width: calc(100% + 20px);
+    height: 50px;
+    margin-left: -10px;
+    padding: 0 10px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.filt-close {
+    display: none;
+}
+
+.filt-search {
+    display: none;
+}
+
+.filter-buttons>.buttonss a:last-child {
+    background-color: #8C8C8D;
+}
+
+.filter-buttons {
+    display: none;
+}
+
+
+/* Left Content */
+
+.main-content .col-3 {
+    padding: 0 10px;
+}
+
+.leftt-contentt {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 0 10px !important;
+}
+
+.leftt-contentt>span {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+
+.menu>a {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+
+.menu ul {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.menu ul a {
+    color: #000;
+    font-size: 16px;
+    transition: .5s;
+    padding: 10px 0;
+}
+
+.menu ul a:hover {
+    color: #c0392b;
+    padding-left: 10px;
+}
+
+.color>span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.color>div {
+    padding-left: 10px;
+}
+
+.color label {
+    padding: 8px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.color input {
+    width: 20px;
+    height: 20px;
+}
+
+.color label span:first-of-type {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.color div:nth-of-type(1) label span:first-of-type {
+    background-color: #0097A7;
+}
+
+.color div:nth-of-type(2) label span:first-of-type {
+    background-color: #FB8C00;
+}
+
+.color div:nth-of-type(3) label span:first-of-type {
+    background-color: #4A148C;
+}
+
+.color div:nth-of-type(4) label span:first-of-type {
+    background-color: #607D8B;
+}
+
+.color div:nth-of-type(5) label span:first-of-type {
+    background-color: #008000;
+}
+
+.brand>span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.brand>span+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 0;
+}
+
+.brand>span+div i {
+    position: absolute;
+    left: 25px;
+    font-size: 20px;
+    color: #757575;
+}
+
+.brand input[type="text"] {
+    width: 100%;
+    background-color: #F8F8F8;
+    font-size: 13px;
+    line-height: 40px;
+    padding: 0 50px;
+    border-radius: 25px;
+}
+
+.brand>div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.brand div label {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    cursor: pointer;
+    padding: 8px 0;
+}
+
+.brand div input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.price>span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.price>div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-left: 10px;
+}
+
+.price>div {
+    font-size: 20px;
+}
+
+.price input {
+    border: 1px solid #e1e1e1;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.price input::placeholder {
+    font-size: 14px;
+}
+
+.leftt-contentt>a:last-child {
+    width: 100%;
+    background-color: #c0392b;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 10px;
+    color: #fff;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-pageneshion {
+    padding: 40px;
+}
+
+.pageneshion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.pageneshion div {
+    display: flex;
+    column-gap: 10px;
+}
+
+.pageneshion>span {
+    font-size: 13px;
+    color: #7c7c7c;
+}
+
+.pageneshion div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    font-size: 13px;
+    color: #000;
+    background-color: #F8F8F8;
+    border-radius: 50%;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.pageneshion div a.active {
+    background-color: #c0392b;
+    color: #fff;
+    font-weight: 700;
+}
+
+.pageneshion div a:hover {
+    background-color: #c0392b;
+    color: #fff;
+}
